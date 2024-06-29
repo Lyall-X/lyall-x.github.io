@@ -14,15 +14,13 @@
         <meta property="og:type" content="article" />
         <meta name="twitter:card" content="summary">
 
-<meta property="og:title" content="All Tags · Game Server Technology"/>
-<meta name="twitter:title" content="All Tags · Game Server Technology">
-<meta property="og:url" content="/tags.html" />
-<meta property="og:description" content="All tags used in the Game Server Technology blog" />
-<meta name="twitter:description" content="All tags used in the Game Server Technology blog">
+<meta property="og:title" content="Game Server Technology"/>
+<meta name="twitter:title" content="Game Server Technology">
+<meta property="og:url" content="" />
 <meta property="og:site_name" content="Game Server Technology" />
 <meta property="og:article:author" content="lyall" />
-        <title>All Tags · Game Server Technology
-</title>
+<meta name="keywords" content=" pelican,  publishing,  Python, " />
+        <title>Game Server Technology - Articles by Alexis Metaireau</title>
         <link rel="shortcut icon" href="/theme/images/favicon.ico" type="image/x-icon" />
         <link rel="icon" href="/theme/images/apple-touch-icon-152x152.png" type="image/png" />
         <link rel="apple-touch-icon" href="/theme/images/apple-touch-icon.png"  type="image/png" />
@@ -34,7 +32,6 @@
         <link rel="apple-touch-icon" sizes="144x144" href="/theme/images/apple-touch-icon-144x144.png" type="image/png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/theme/images/apple-touch-icon-152x152.png" type="image/png" />
         <link rel="apple-touch-icon" sizes="152x152" href="/theme/images/apple-touch-icon-180x180.png" type="image/png" />
-
 
 
 
@@ -59,7 +56,7 @@
                                 </li>
                                 <li ><a href="/pages/about-me.html">About Me</a></li>
                                 <li ><a href="/categories.html">Categories</a></li>
-                                <li  class="active"><a href="/tags.html">Tags</a></li>
+                                <li ><a href="/tags.html">Tags</a></li>
                                 <li ><a href="/archives.html">Archives</a></li>
                                 <li><form class="navbar-search" action="/search.html" onsubmit="return validateForm(this.elements['q'].value);"> <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input"></form></li>
                             </ul>
@@ -71,56 +68,34 @@
                 <div class="row-fluid">
                     <div class="span1"></div>
                     <div class="span10">
-<div class="row-fluid">
-    <header class="page-header span10 offset2">
-    <h1><a href="/tags.html">All Tags</a></h1>
-    </header>
-</div>
-<div class="row-fluid">
-    <div class="span8 offset2">
-        <form class="form-search">
-            <input type="text" class="input-medium search-query filterinput" placeholder="Find a tag">
-        </form>
-        <ul class="list-of-tags">
-            <li>
-            <a href="#pelican-ref">pelican<span class="superscript">1</span></a>
-            </li>
-            <li>
-            <a href="#publishing-ref">publishing<span class="superscript">1</span></a>
-            </li>
-        </ul>
-    </div>
-</div>
+
 
 <div class="row-fluid">
-    <div class="span8 offset2">
-        <h2 id="pelican-ref" class="tag-title">pelican</h2>
-        <ul class="list-articles-under-tag-category">
-            <li itemscope>
+
+    <div class="row-fluid">
+
+    </div>
+
+    <div class="row-fluid">
+        <div class="span8 offset2">
+            <header>
+            <h1 id="recent-posts">Recent Posts <a id="allposts" href="/archives.html">all posts</a></h1>
+            </header>
+        <div class="recent-posts">
+            <div itemscope class="recent-posts-article">
                 <a href="/my-super-post.html">
                     My super title
                 </a>
-                <time itemprop="dateCreated" datetime="2010-12-03T10:20:00+08:00">
-                    Fri 03 December 2010
-                </time>
-            </li>
-        </ul>
-
-        <h2 id="publishing-ref" class="tag-title">publishing</h2>
-        <ul class="list-articles-under-tag-category">
-            <li itemscope>
-                <a href="/my-super-post.html">
-                    My super title
-                </a>
-                <time itemprop="dateCreated" datetime="2010-12-03T10:20:00+08:00">
-                    Fri 03 December 2010
-                </time>
-            </li>
-        </ul>
-
+                <div class="recent-posts-posted">
+                    posted in
+                    <a href="/categories.html#python-ref">Python</a>
+                    <time itemprop="dateCreated" datetime="2010-12-03T10:20:00+08:00">Fri 03 December 2010</time>
+                </div>
+            </div>
+        </div>
+        </div>
     </div>
 </div>
-
                     </div>
                     <div class="span1"></div>
                 </div>
@@ -147,45 +122,6 @@
                 return (query.length > 0);
             }
         </script>
-
-
-<script>
-    (function ($) {
-        // custom css expression for a case-insensitive contains()
-        jQuery.expr[':'].Contains = function(a,i,m){
-            return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
-        };
-
-        function listFilter() {
-
-            $('.filterinput')
-            .change( function () {
-                var filter = $(this).val();
-                if(filter) {
-                    // this finds all links in a list that contain the input,
-                    // and hide the ones not containing the input while showing the ones that do
-                    $('.list-of-tags').find("a:not(:Contains(" + filter + "))").parent().hide();
-                    $('.list-of-tags').find("a:Contains(" + filter + ")").parent().show();
-                    } else {
-                    $('.list-of-tags').find("li").show();
-                }
-                return false;
-            })
-            .keyup( function () {
-                // fire the above change event after every letter
-                $(this).change();
-            });
-        }
-
-        //ondomready
-        $(function () {
-            listFilter($());
-        });
-    }(jQuery));
-
-</script>
-
-
     </body>
     <!-- Theme: Elegant built for Pelican
         License : MIT -->
