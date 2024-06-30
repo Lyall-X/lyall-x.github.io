@@ -4,112 +4,112 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>/</loc>
-<lastmod>2024-06-30T21:57:37-00:00</lastmod>
+<loc>www.mukgame.com/</loc>
+<lastmod>2024-06-30T22:29:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tags.html</loc>
-<lastmod>2024-06-30T21:57:37-00:00</lastmod>
+<loc>www.mukgame.com/tags.html</loc>
+<lastmod>2024-06-30T22:29:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/categories.html</loc>
-<lastmod>2024-06-30T21:57:37-00:00</lastmod>
+<loc>www.mukgame.com/categories.html</loc>
+<lastmod>2024-06-30T22:29:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/authors.html</loc>
-<lastmod>2024-06-30T21:57:37-00:00</lastmod>
+<loc>www.mukgame.com/authors.html</loc>
+<lastmod>2024-06-30T22:29:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/archives.html</loc>
-<lastmod>2024-06-30T21:57:37-00:00</lastmod>
+<loc>www.mukgame.com/archives.html</loc>
+<lastmod>2024-06-30T22:29:57-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/pages/2024/06/zhe-shi-blogde-kai-duan/</loc>
+<loc>www.mukgame.com/pages/2024/06/zhe-shi-blogde-kai-duan/</loc>
 <lastmod>2024-06-30T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/pages/2010/12/my-su12321t/</loc>
+<loc>www.mukgame.com/pages/2010/12/my-su12321t/</loc>
 <lastmod>2010-12-05T19:30:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/pages/2010/12/my-super-post/</loc>
+<loc>www.mukgame.com/pages/2010/12/my-super-post/</loc>
 <lastmod>2010-12-05T19:30:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>/category/misc.html</loc>
+<loc>www.mukgame.com/category/misc.html</loc>
 <lastmod>2024-06-30T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/python.html</loc>
+<loc>www.mukgame.com/category/python.html</loc>
 <lastmod>2010-12-05T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/category/python222.html</loc>
+<loc>www.mukgame.com/category/python222.html</loc>
 <lastmod>2010-12-05T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/pelican.html</loc>
+<loc>www.mukgame.com/tag/pelican.html</loc>
 <lastmod>2010-12-05T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/tag/publishing.html</loc>
+<loc>www.mukgame.com/tag/publishing.html</loc>
 <lastmod>2010-12-05T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/alexis-metaireau.html</loc>
+<loc>www.mukgame.com/author/alexis-metaireau.html</loc>
 <lastmod>2010-12-05T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/conan-doyle.html</loc>
+<loc>www.mukgame.com/author/conan-doyle.html</loc>
 <lastmod>2010-12-05T19:30:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/author/lyall.html</loc>
+<loc>www.mukgame.com/author/lyall.html</loc>
 <lastmod>2024-06-30T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
