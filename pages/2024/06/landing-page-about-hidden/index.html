@@ -133,6 +133,18 @@ save_as
 保存内容到此相对文件路径
 url
 此文章/页面使用的 URL</p>
+<hr>
+<p>This is an <a href="internal">internal</a> link and this is an
+<a href="http://external.com">external</a> link.</p>
+<hr>
+<p>Here’s my written text[ref]and here is a footnote[/ref].daas</p>
+<hr>
+<p>There are two ways to specify the identifier:
+    :::python
+    print("The triple-colon syntax will <em>not</em> show line numbers.")
+To display line numbers, use a path-less shebang instead of colons:
+    #!python
+    print("The path-less shebang syntax <em>will</em> show line numbers.")</p>
 
 
              
@@ -146,58 +158,6 @@ url
 
 
 
-
-<section>
-    <h6 style="display:none;">Comments</h6>
-    <p id="comment-message"> </p>
-
-    <div class="accordion" id="accordion2">
-        <div class="accordion-group">
-            <div class="accordion-heading">
-                <a class="accordion-toggle disqus-comment-count comment-count collapsed"
-                   data-toggle="collapse"
-                   data-parent="#accordion2"
-                   data-disqus-identifier="https://www.mukgame.com/pages/2024/06/landing-page-about-hidden/"
-                   href="https://www.mukgame.com/pages/2024/06/landing-page-about-hidden/#comment_thread"
-                   id="comment-accordion-toggle">
-                    Comments
-                </a>
-            </div>
-            <div id="comment_thread" class="accordion-body collapse">
-                <div class="accordion-inner">
-                    <div class="comments">
-                        <div id="disqus_thread"></div>
-                        <script>
-    var disqus_shortname = 'mukgame.com';
-    (function () {
-        var s = document.createElement('script'); s.async = true;
-        s.type = 'text/javascript';
-        s.src = '//' + disqus_shortname + '.disqus.com/count.js';
-        (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-    }());
-
-    var disqus_identifier = 'https://www.mukgame.com/pages/2024/06/landing-page-about-hidden/';
-    var disqus_url = 'https://www.mukgame.com/pages/2024/06/landing-page-about-hidden/';
-
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-
-<noscript>Please enable JavaScript to view the <a href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-
-
-
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
             <hr/>
         </div>
