@@ -4,126 +4,126 @@ xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitem
 xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-<loc>lyall-x.github.io/</loc>
-<lastmod>2024-07-31T23:27:52-00:00</lastmod>
+<loc>https://lyall-x.github.io/</loc>
+<lastmod>2024-07-31T23:31:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/tags.html</loc>
-<lastmod>2024-07-31T23:27:52-00:00</lastmod>
+<loc>https://lyall-x.github.io/tags.html</loc>
+<lastmod>2024-07-31T23:31:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/categories.html</loc>
-<lastmod>2024-07-31T23:27:52-00:00</lastmod>
+<loc>https://lyall-x.github.io/categories.html</loc>
+<lastmod>2024-07-31T23:31:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/authors.html</loc>
-<lastmod>2024-07-31T23:27:52-00:00</lastmod>
+<loc>https://lyall-x.github.io/authors.html</loc>
+<lastmod>2024-07-31T23:31:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/archives.html</loc>
-<lastmod>2024-07-31T23:27:52-00:00</lastmod>
+<loc>https://lyall-x.github.io/archives.html</loc>
+<lastmod>2024-07-31T23:31:00-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/pages/2024/07/gong-zuo-zhong-ru-he-zuo-hao-ji-zhu-ji-lei/</loc>
+<loc>https://lyall-x.github.io/pages/2024/07/gong-zuo-zhong-ru-he-zuo-hao-ji-zhu-ji-lei/</loc>
 <lastmod>2024-07-23T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/pages/2024/07/kubernests/</loc>
+<loc>https://lyall-x.github.io/pages/2024/07/kubernests/</loc>
 <lastmod>2024-07-15T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/pages/2024/07/ris222ks_and_oppo22rtunities/</loc>
+<loc>https://lyall-x.github.io/pages/2024/07/ris222ks_and_oppo22rtunities/</loc>
 <lastmod>2024-07-15T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/pages/2024/07/ris222ks_and_opportunities/</loc>
+<loc>https://lyall-x.github.io/pages/2024/07/ris222ks_and_opportunities/</loc>
 <lastmod>2024-07-15T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/pages/2024/07/risks_and_opportunities/</loc>
+<loc>https://lyall-x.github.io/pages/2024/07/risks_and_opportunities/</loc>
 <lastmod>2024-07-15T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/</loc>
+<loc>https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/</loc>
 <lastmod>2024-07-15T00:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.7</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/category/1-fu-wu-qi-jia-gou.html</loc>
+<loc>https://lyall-x.github.io/category/1-fu-wu-qi-jia-gou.html</loc>
 <lastmod>2024-07-15T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/category/2-wang-luo-bian-cheng.html</loc>
+<loc>https://lyall-x.github.io/category/2-wang-luo-bian-cheng.html</loc>
 <lastmod>2024-07-15T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/category/deng-lu-liu-cheng.html</loc>
+<loc>https://lyall-x.github.io/category/deng-lu-liu-cheng.html</loc>
 <lastmod>2024-07-15T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/category/misc.html</loc>
+<loc>https://lyall-x.github.io/category/misc.html</loc>
 <lastmod>2024-07-15T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/category/yun-yuan-sheng.html</loc>
+<loc>https://lyall-x.github.io/category/yun-yuan-sheng.html</loc>
 <lastmod>2024-07-15T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/category/za-xiang.html</loc>
+<loc>https://lyall-x.github.io/category/za-xiang.html</loc>
 <lastmod>2024-07-23T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>lyall-x.github.io/author/lyall.html</loc>
+<loc>https://lyall-x.github.io/author/lyall.html</loc>
 <lastmod>2024-07-23T00:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
