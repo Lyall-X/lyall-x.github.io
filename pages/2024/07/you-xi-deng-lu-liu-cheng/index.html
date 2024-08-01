@@ -114,8 +114,8 @@
 - 登录状态: 其他服务查询当前登录状态，例如好友，邮件等功能，以及断线重连，顶号等问题
 - 分布式锁: 防止多点登录，顶号等问题。一般采用redis的分布式锁的方式</p>
 <p>1.获取玩家所拥有的角色信息的流程图：</p>
-<p><img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/login1.png">
-流程图的步骤说明：
+<p><img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/login1.png"></p>
+<p>流程图的步骤说明：
 1. 客户端携带第三方平台返回的token，发送给Gate
 2. Gate将token转发给Session
 3. Session在开始登录时，设置分布式锁，防止多点登录
@@ -124,8 +124,8 @@
 6. Session返回角色列表和验证结果
 7. Gate转发给客户端角色列表</p>
 <p>2.选定角色登录流程图：</p>
-<p><img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/login2.png">
-流程图的步骤说明：
+<p><img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/login2.png"></p>
+<p>流程图的步骤说明：
 1. 客户端角色选择后，发送给Gate
 2. Gate将角色选择信息转发给Session
 3. Session从redis查看玩家是否已在线
