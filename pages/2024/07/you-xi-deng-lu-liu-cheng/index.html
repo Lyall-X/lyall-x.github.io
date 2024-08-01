@@ -99,17 +99,24 @@
             <h2>前言</h2>
 <p>服务端登录需要考虑登录的账号验证，和分布式集群引入的多点登录问题，并且由于存在登录状态而引发的断线重连，顶号等问题。通常这些问题可以归为一类，都是围绕登录流程所展开的。</p>
 <h3>1.账号验证</h3>
-<p>账号验证分为两种：1.通过第三方平台登录(google, appleid...) 2.账号密码登录 3.将以上两种方式结合</p>
-<h4>a.通过第三方平台登录</h4>
-<p>通过第三方平台登录，需要在客户端接入第三方平台的登录接口。通过上报gmail账号等信息，从第三方平台获取登录凭证，然后将凭证传给服务端。服务端通过调用第三方平台的接口验证凭证的有效性，如果验证通过，则返回登录成功，否则返回登录失败。
-<img alt="img" src="img/logintype1.png"></p>
-<h4>b.账号密码登录</h4>
-<p>客户端将账号密码传给服务端，服务端通过数据库查询账号密码是否正确，如果正确则返回登录成功，并生成用于登录场景的验证token，将token存储于数据库中(例如redis), 用于客户端之后通过sessionid进行登录时候的验证。如果正好密码错误返回登录失败，不存在则新建角色。
-<img alt="img" src="img/logintype2.png"></p>
-<h4>3.还有一种登录方式，是将以上的两种方式结合，以下是完整的登录流程：</h4>
+<p>账号验证分为两种：1.通过第三方平台验证(google, appleid...) 2.账号密码验证 3.将以上两种方式结合</p>
+<h4>a.通过第三方平台验证</h4>
+<p>通过第三方平台验证，需要在客户端接入第三方平台的验证接口。通过上报gmail账号等信息，从第三方平台获取验证凭证，然后将凭证传给服务端。服务端通过调用第三方平台的接口验证凭证的有效性，如果验证通过，则返回验证成功，否则返回验证失败。
+<img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/logintype1.png"></p>
+<h4>b.账号密码本地验证</h4>
+<p>客户端将账号密码传给服务端，服务端通过数据库查询账号密码是否正确，如果正确则返回验证成功，并生成用于验证Game Server的验证token，将token存储于数据库中(例如redis), 用于客户端之后通过sessionid进行登录时候的验证。如果正好密码错误返回登录失败，不存在则新建角色。
+<img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/logintype2.png"></p>
+<h4>3.以上的两种方式结合</h4>
 <p>第三种方式好处是可以利用服务器自己生成的token进行验证，并且能利用服务器token进行断线等操作
-<img alt="img" src="img/logintype3.png"></p>
-<h2>2.多点登录</h2>
+<img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/logintype3.png"></p>
+<h3>2.登录流程</h3>
+<p>账号验证通过之后，紧接着进行的是登录流程，不同的架构设计，登录流程也会有所不同。需要注意的是登录状态的保存，和分布式锁。
+- 登录状态: 其他服务查询当前登录状态，例如好友，邮件等功能，以及断线重连，顶号等问题
+- 分布式锁: 防止多点登录，顶号等问题。一般采用redis的分布式锁的方式</p>
+<p>1.获取玩家所拥有的角色信息的流程图：
+<img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/login1.png"></p>
+<p>2.选定角色登录流程图：
+<img alt="img" src="https://lyall-x.github.io/pages/2024/07/you-xi-deng-lu-liu-cheng/img/login2.png"></p>
 
 
              
